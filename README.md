@@ -1,3 +1,5 @@
+# Generic Data-driven Reservoir Operation Model (GDROM)
+
 ## 1. Overview
 
 This repository contains scripts for running our generic data-driven reservoir operation model (GDROM), which is published on Advances in Water Resources. The GDROM couples hidden Markov Model and decision tree to extract representative operation modules and model the module applications. Please refer to [our paper](https://doi.org/10.1016/j.advwatres.2022.104274) for model details.
