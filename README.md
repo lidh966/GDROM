@@ -8,18 +8,17 @@ The model is written purely in Python, with `hmmlearn` package for the hidden Ma
 
 ## 2. What's in this repository?
 
-- Modified base code files for Python `hmmlearn` package. The modification is contributed by Dr. Qiankun Zhao.
-- A Jupyter notebook for going through the model training procedure, as well as the post-process, e.g., converting to if-then statements.
-- Data for a specific reservoir as an example to guide you go through the entire procedure.
-- `requirements.txt` file that contains the dependencies of our running environment.
+- `base_code` folder: modified base code files for Python `hmmlearn` package. The modification is contributed by Dr. Qiankun Zhao.
+- `notebook` folder: a Jupyter notebook (written by Yanan Chen) for going through the model training procedure, as well as the post-process. An example reservoir (Echo Reservoir, ID: 449) is attached (`449.csv`) for you to go through the notebook.
+- `environment.yml` file that contains the dependencies of our running environment. You can directly copy to your Python environment. 
 
 ## 3. How to set up the Python environment?
 
-### 3.1. Install all dependencies from the requirements.txt
+### 3.1. Install all dependencies from the `environment.yml` file
 
-A virtual environment is strongly recommended. All dependencies can be installed from the `requirements.txt` by running the following command:
+A virtual environment is strongly recommended. All dependencies can be installed from the `environment.yml` by running the following command:
 
-If you're using `conda`: 
+<!-- If you're using `conda`: 
 ```
 conda install --file /path/to/requirements.txt
 ```
@@ -27,7 +26,7 @@ conda install --file /path/to/requirements.txt
 If you're using `pip`: 
 ```
 pip install -r /path/to/requirements.txt
-```
+``` -->
 
 ### 3.2. Add modified base code to site packages
 
