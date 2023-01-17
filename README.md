@@ -11,7 +11,9 @@ The model is written purely in Python, with `hmmlearn` package for the hidden Ma
 ## 2. What's in this repository?
 
 - `base_code` folder: modified base code files for Python `hmmlearn` package. The modification is contributed by Dr. Qiankun Zhao.
-- `notebook` folder: a Jupyter notebook (written by Yanan Chen) for going through the model training procedure, as well as the post-process. An example reservoir (Echo Reservoir, ID: 449) is attached (`449.csv`) for you to go through the notebook.
+- `notebook` folder: 
+  - a Jupyter notebook `GDROM` (written by Yanan Chen) for going through the model training procedure, as well as the post-process. An example reservoir (Echo Reservoir, ID: 449) is attached (`449.csv`) for you to go through the notebook.
+  - a Jupyter notebook `export_rules` for exporting the trained operation rules to the if-then statements.
 - `environment.yml` file that contains the dependencies of our running environment. You can directly copy to your Python environment. 
 
 ## 3. How to set up the Python environment?
