@@ -4,7 +4,7 @@
 
 This repository contains scripts for running our generic data-driven reservoir operation model (GDROM), which is published on Advances in Water Resources. The GDROM couples hidden Markov Model and decision tree to extract representative operation modules and model the module applications. Please refer to [our paper](https://doi.org/10.1016/j.advwatres.2022.104274) for model details.
 
-We have applied the GDROM to 452 large reservoirs with long-term operation records available across the Contiguous United States (CONUS). The trained model for individual reservoir has been converted to if-then statements for easy implementation with large-scale hydrological and water resources models. The inventory of the empirical operation rules is shared via [our HydroShare repository](https://www.hydroshare.org/resource/63add4d5826a4b21a6546c571bdece10/).
+We have applied the GDROM to 452 large reservoirs with long-term operation records available across the Contiguous United States (CONUS). The trained model for individual reservoir has been converted to if-then statements for easy implementation with large-scale hydrological and water resources models. The inventory of the empirical operation rules is shared via [our HydroShare repository](https://doi.org/10.4211/hs.63add4d5826a4b21a6546c571bdece10).
 
 The model is written purely in Python, with `hmmlearn` package for the hidden Markov part and `scikit-learn` package for the decision tree part. 
 
@@ -60,4 +60,4 @@ The full dataset containing all training data and extracted models for the 450+ 
 References of related papers
 - Zhao, Q., and Cai, X. (2020). Deriving representative reservoir operation rules using a hidden Markov-decision tree model. Advances in Water Resources, 146, 103753. ([link](https://doi.org/10.1016/j.advwatres.2020.103753))
 - Chen, Y., Li, D., Zhao, Q., & Cai, X. (2022). Developing a generic data-driven reservoir operation model. Advances in Water Resources, 167, 104274. ([link](https://doi.org/10.1016/j.advwatres.2022.104274))
-- Li, D., Chen Y., Lyu, L., & Cai, X. Operation rules and patterns for 452 large reservoirs in the Contiguous United States (Under Review, WRR)
+- Li, D., Chen Y., Lyu, L., & Cai, X. Operation rules and patterns for 452 large reservoirs in the Contiguous United States (Under Revision, WRR)
